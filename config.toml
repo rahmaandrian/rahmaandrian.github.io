@@ -1,0 +1,60 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+themesDir = "themes"
+theme = "crisp"
+
+[taxonomies]
+	tag = "tags"
+	tutorial = "tutorials"
+
+[params]
+	# Render the rotating globe in the sidebar
+	showglobe = true
+
+	# Include favicon
+	favicon = "favicon.ico"
+ 	
+	# Google Analytics
+	analytics = "SHORT-CODE-HERE"
+
+	# Email (optional)
+	email = "alexurquhart@gmail.com"
+	
+	# Header Title for the main page
+	header = "What I'm Thinking"
+	
+	# Sidebar profile picture
+	profilepic = "img/foto.png"
+	
+	# Title/subtitle for the sidebar
+	title = "ALEX URQUHART"
+	subtitle = "GEOMATICS PROFESSIONAL"
+	
+	# Social buttons for sidebar
+	# Each of these are optional
+	[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/alexurquhart"
+	[[params.socialbuttons]]
+	faicon = "twitter"
+	url = "https://twitter.com/alexanderurq"
+	[[params.socialbuttons]]
+	faicon = "linkedin"
+	url = "https://linkedin.com"
+	[[params.socialbuttons]]
+	faicon = "google-plus"
+	url = "https://plus.google.com/+YourID"
+
+	# Nav links below the profile picture
+	[[params.navlinks]]
+	name = "About"
+	url = "about/"
+	
+	[[params.navlinks]]
+	name = "Blog"
+	url = "posts/"
+	
+	[[params.navlinks]]
+	name = "Tutorials"
+	url = "tutorial/"
